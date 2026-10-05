@@ -1,0 +1,169 @@
+{
+  "contract": "0xcBFAe21737493E5ce5cA22686D5D2AECA4140A8c",
+  "network": "studionet",
+  "previews": [
+    {
+      "why": "real KRW listing (notice 6635)",
+      "symbol": "POD",
+      "asset": "Dolphin (POD), Base network",
+      "event": "krw_listing",
+      "window": [
+        "2026-10-01T00:00:00",
+        "2026-10-04T00:00:00"
+      ],
+      "tx": "0x9373e913e1f9598a44c25cb21e4c993f07faf144268488533f6d9876c3354e2c",
+      "status": "ACCEPTED",
+      "result": {
+        "asset": "Dolphin (POD), Base network",
+        "candidates": [
+          {
+            "at": 1790915841,
+            "event": "krw_listing",
+            "id": 6635,
+            "same_asset": true,
+            "title": "돌핀(POD) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)"
+          }
+        ],
+        "end": 1791039600,
+        "event": "krw_listing",
+        "outcome": "yes",
+        "start": 1790780400,
+        "symbol": "POD"
+      }
+    },
+    {
+      "why": "same ticker, different project",
+      "symbol": "POD",
+      "asset": "Pod Protocol, a Solana project",
+      "event": "krw_listing",
+      "window": [
+        "2026-10-01T00:00:00",
+        "2026-10-04T00:00:00"
+      ],
+      "tx": "0x80e6a1ac5b041760438eddc348f6db75afdb86d53db45dd8f9d0ba2f6891c42d",
+      "status": "ACCEPTED",
+      "result": {
+        "asset": "Pod Protocol, a Solana project",
+        "candidates": [
+          {
+            "at": 1790915841,
+            "event": "krw_listing",
+            "id": 6635,
+            "same_asset": false,
+            "title": "돌핀(POD) 신규 거래지원 안내 (KRW, BTC, USDT 마켓)"
+          }
+        ],
+        "end": 1791039600,
+        "event": "krw_listing",
+        "outcome": "no",
+        "start": 1790780400,
+        "symbol": "POD"
+      }
+    },
+    {
+      "why": "real new caution designation (6637)",
+      "symbol": "BLAST",
+      "asset": "Blast (BLAST), Ethereum L2",
+      "event": "caution",
+      "window": [
+        "2026-10-02T00:00:00",
+        "2026-10-04T00:00:00"
+      ],
+      "tx": "0xea7c0c8e1500177b3f946659c0b6e0e3b3d72e1c183e1a48949e284340eb62e0",
+      "status": "ACCEPTED",
+      "result": {
+        "asset": "Blast (BLAST), Ethereum L2",
+        "candidates": [
+          {
+            "at": 1790958600,
+            "event": "caution",
+            "id": 6637,
+            "same_asset": true,
+            "title": "블라스트(BLAST) 거래 유의 종목 지정 안내"
+          }
+        ],
+        "end": 1791039600,
+        "event": "caution",
+        "outcome": "yes",
+        "start": 1790866800,
+        "symbol": "BLAST"
+      }
+    },
+    {
+      "why": "only an EXTENSION of caution (6589)",
+      "symbol": "MANTRA",
+      "asset": "MANTRA (OM / MANTRA chain)",
+      "event": "caution",
+      "window": [
+        "2026-09-15T00:00:00",
+        "2026-09-25T00:00:00"
+      ],
+      "tx": "0x0e9099af21774fc66e74bf8b505d9dad32978bbfae3a3d95328412e4d25e0e33",
+      "status": "ACCEPTED",
+      "result": {
+        "asset": "MANTRA (OM / MANTRA chain)",
+        "candidates": [
+          {
+            "at": 1789714822,
+            "event": "other",
+            "id": 6589,
+            "same_asset": true,
+            "title": "만트라(MANTRA) 거래 유의 종목 지정 기간 연장 안내"
+          }
+        ],
+        "end": 1790262000,
+        "event": "caution",
+        "outcome": "no",
+        "start": 1789398000,
+        "symbol": "MANTRA"
+      }
+    },
+    {
+      "why": "real delisting announcement (6591)",
+      "symbol": "ICX",
+      "asset": "ICON (ICX)",
+      "event": "delisting",
+      "window": [
+        "2026-09-15T00:00:00",
+        "2026-09-25T00:00:00"
+      ],
+      "tx": "0xae435ace9b03d918d12baf20427239d2e01d62c8e259f65b0119c10a54c6cb04",
+      "status": "ACCEPTED",
+      "result": {
+        "asset": "ICON (ICX)",
+        "candidates": [
+          {
+            "at": 1789716600,
+            "event": "delisting",
+            "id": 6591,
+            "same_asset": true,
+            "title": "아이콘(ICX) 거래지원 종료 안내 (10/19 15:00)"
+          }
+        ],
+        "end": 1790262000,
+        "event": "delisting",
+        "outcome": "yes",
+        "start": 1789398000,
+        "symbol": "ICX"
+      }
+    }
+  ],
+  "market": {
+    "id": 0,
+    "resolve_tx": "0x303f1b76108f408253f4e8b036f0a96f81ed6b267ed0dc43005227b725fe6e4a",
+    "redeem_tx": "0xbae7702809a7535a77acb1301741b6b600ab29d33b9d80222b50dd23afb79af1",
+    "final": {
+      "asset": "Bitcoin (BTC)",
+      "betting_close": 1791184105,
+      "creator": "0xA1BE16a274cC217530A2d3045eFc366B9f898978",
+      "deadline": 1791184285,
+      "event": "delisting",
+      "event_rule": "Upbit announces the end of trading support (거래지원 종료) for the asset.",
+      "evidence": [],
+      "no_pool": "2000000000000000000",
+      "status": "no",
+      "symbol": "BTC",
+      "yes_pool": "1000000000000000000"
+    }
+  }
+}
