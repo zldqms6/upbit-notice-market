@@ -2,6 +2,10 @@
 
 Yes/no markets on Upbit trade announcements, resolved by GenLayer validators reading Upbit's own notice board.
 
+**Live app:** https://zldqms6.github.io/upbit-notice-market/ (Studionet, testnet burner wallet, Korean UI) · source in [`app/`](app/)
+
+![Markets](app/screenshots/01-markets-desktop.png)
+
 ## Why I built this
 
 I trade Korean crypto, and a large share of the talk around me is about Upbit:
